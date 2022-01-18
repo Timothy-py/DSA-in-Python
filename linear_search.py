@@ -11,11 +11,13 @@ def linear_search(list, target):
 
 def verify(index):
     if index is not None:
-        print("Target found at index: ", index)
+        print("Target found at index: %d" % (index))
     else:
         print("Target not found in list")
 
 
 numbers = [i for i in range(1, 10)]
 
-print(linear_search(numbers, 9))
+result = linear_search(numbers, 7)
+
+verify(result)
