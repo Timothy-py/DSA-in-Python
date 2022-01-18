@@ -16,4 +16,6 @@ def verify(index):
         print("Target not found in list")
 
 
-numbers = [i for i in range(10)]
+numbers = [i for i in range(1, 10)]
+
+print(linear_search(numbers, 9))
